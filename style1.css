@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* CSS Document */
+body,td,th { font-family: Tahoma, Geneva, sans-serif; }
+body { width: 100%; }
+#header1 { background-color:#666666; border:none; width:auto; margin-left:0px; margin-right:0px; }
+.table1 { border-color:#FFF; color:#FFF; }
+#title { background-color:#CCC; width:auto; padding-left:20px; }
