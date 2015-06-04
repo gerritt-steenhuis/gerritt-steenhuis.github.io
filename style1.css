@@ -5,13 +5,24 @@ body { width: 100%; margin:0; }
 
 #header1 {
 	background-color: #666666;
-	border: none;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	color: #FFF;
 }
 
-.table1 { 
-	border-color:#FFF; 
+.buttons {
+	text-align:right;
+	padding-right:20px;
+	padding-left:20px;
+	color:#FFF;
+	border-right: thin solid #FFFFFF;
+}
+
+.button2 {
+	text-align:right;
+	padding-right:20px;
+	padding-left:20px;
 	color:#FFF;
 }
 
@@ -23,12 +34,36 @@ body { width: 100%; margin:0; }
 #title2 {
 	font-size:24px;
 	padding-left:40px;
-	padding-top:40px;
-	padding-bottom:50px;
+	padding-top:50px;
+	padding-bottom:70px;
 }
-#home { width:80px; 
-	border-right:medium;
-	border-right-color:#FFF;
-	padding-right:50px;
-	border-right-width:100px;
+
+#table2 {
+	background-color:#72B0CF;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#table3 {
+	background-color:#72B0CF;
+	margin-left:auto;
+	margin-right:auto;
+	width:950px;
+	padding-top:30px;
+	padding-bottom:30px;
+	alignment-adjust:central;
+}
+
+#table4 {
+	background-color: #C9A55B;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+
+p {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
 }
