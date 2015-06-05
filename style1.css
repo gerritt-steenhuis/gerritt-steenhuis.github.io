@@ -50,11 +50,11 @@ body {
 }
 
 #table2 {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 50px;
 	background-color:#72B0CF;
-	margin-left:auto;
-	margin-right:auto;
-	padding-top:20px;
-	padding-bottom:50px;
 }
 
 #table3 {
