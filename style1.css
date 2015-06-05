@@ -1,7 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
-body,td,th { font-family: Tahoma, Geneva, sans-serif; }
-body { width: 100%; margin:0; }
+body,td,th { 
+	font-family: Tahoma, Geneva, sans-serif; 
+}
+
+body { 
+	width: 100%; 
+	margin:0; 
+}
 
 #header1 {
 	background-color: #666666;
@@ -9,6 +15,10 @@ body { width: 100%; margin:0; }
 	margin-right: auto;
 	text-align: right;
 	color: #FFF;
+}
+
+.linkedin {
+	padding-left:25px;
 }
 
 .buttons {
@@ -31,6 +41,7 @@ body { width: 100%; margin:0; }
 	width:auto;
 	padding-bottom:100px; 
 }
+
 #title2 {
 	font-size:24px;
 	padding-left:40px;
@@ -42,8 +53,8 @@ body { width: 100%; margin:0; }
 	background-color:#72B0CF;
 	margin-left:auto;
 	margin-right:auto;
-	padding-top:30px;
-	padding-bottom:30px;
+	padding-top:20px;
+	padding-bottom:50px;
 }
 
 #table3 {
@@ -65,5 +76,10 @@ body { width: 100%; margin:0; }
 
 p {
 	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:14px;
+	font-size:16px;
+}
+
+li {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
 }
