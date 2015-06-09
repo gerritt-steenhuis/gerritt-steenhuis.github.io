@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+body { 
+	margin:0;
+	padding:0;
+}
+
+div p {
+	margin:0;
+	padding:0;
+}
+
+#container {
+	background:url(../images/macbook.jpeg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	margin:0;
+	height:100vh;
+}
+
+#header1 {
+		margin-left:auto;
+		margin-right:auto;
+		text-align:right;
+		margin-top:0px;
+		padding-top:20px;
+}	
+
+#title {
+	padding-top:169px;
+	color:#FFFFFF;
+	text-align:center;
+	font-size:24px;
+	font-weight:bolder;
+}
+
+#main {
+	color:#FFFFFF;
+	text-align:center;
+	vertical-align:central;
+	padding-top:30px;
+}
+
+#body1 {
+	height:400px;
+	background:#FFFFFF;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.button1 {
+	text-align:right;
+	padding-right:20px;
+	padding-left:20px;
+	color:#FFF;
+	border-right: thin solid #FFFFFF;
+}
+
+.button2 {
+	text-align:right;
+	padding-right:40px;
+	padding-left:20px;
+	color:#FFF;
+}
+
+.title {
+	color:#FFFFFF;
+	font-size:36px;
+	padding-top:17px;
+	padding-bottom:23px;
+}
+
+.button3 {
+	text-align:right;
+	padding-right:20px;
+	padding-left:20px;
+	padding-bottom:20px;
+	padding-top:20px;
+	color:#FFF;
+	border: thin solid #FFFFFF;
+	border-spacing:20px;
+	font-size:14px;	
+}
+
+.bodytitle {
+	padding-top:80px;
+	font-family:"Times New Roman", Times, serif;
+	font-size:24px;
+	color:#000000;
+}
+
+.bodytext {
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:40px;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	line-height:2em;
+}
