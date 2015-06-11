@@ -10,6 +10,7 @@ html {
 body { 
 	margin:0;
 	padding:0;
+	border:0;
 }
 
 div p {
@@ -18,7 +19,7 @@ div p {
 }
 
 #container {
-	background:url(../images/macbook.jpeg);
+	background:url(../images/background-bw.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	width:100%;
@@ -31,11 +32,11 @@ div p {
 		margin-right:auto;
 		text-align:right;
 		margin-top:0px;
-		padding-top:20px;
+		padding-top:30px;
 }	
 
 #title {
-	padding-top:169px;
+	padding-top:182px;
 	color:#FFFFFF;
 	text-align:center;
 	font-size:24px;
