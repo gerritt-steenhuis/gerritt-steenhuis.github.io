@@ -24,7 +24,7 @@ a {
 }
 
 #container {
-	background:url(../images/background-bw.jpg);
+	background:url(../images/mac_ipad-bw.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	width:100%;
@@ -81,21 +81,21 @@ a {
 
 #logo {
 	height:80px;
-	width:100%;
 	background-image:url(../logo/logo.gif);
 	background-repeat:no-repeat;
 	background-size:auto;
 	background-position:center;
 	padding-bottom:20px;
 	vertical-align:central;
+	width:100%;
 }
 
 .footer-button a {
 	color:#999999;
+	text-decoration:none;
 }
 
 .button1 {
-	
 	text-align:right;
 	padding-right:20px;
 	padding-left:20px;
