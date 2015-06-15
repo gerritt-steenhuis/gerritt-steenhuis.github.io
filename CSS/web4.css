@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+body { 
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+div p {
+	margin:0;
+	padding:0;
+}
+
+a {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#container {
+	background:url(../images/apple-laptop-macbook-pro-notebook-bw.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	margin:0;
+	height:100vh;
+}
+
+#header1 {
+		margin-left:auto;
+		margin-right:auto;
+		text-align:right;
+		margin-top:0px;
+		padding-top:30px;
+}	
+
+#title {
+	padding-top:182px;
+	color:#FFFFFF;
+	text-align:center;
+	font-size:24px;
+	font-weight:bolder;
+}
+
+#main {
+	color:#FFFFFF;
+	text-align:center;
+	vertical-align:central;
+	padding-top:30px;
+}
+
+#body1 {
+	height:360px;
+	background:#FFFFFF;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#hor-rule {
+	width:60%;
+	border-top:thin solid #000000;
+	margin-left:auto;
+	margin-right:auto;
+	height:90px;
+}
+
+#footer {
+	height:220px;
+	width:100%;
+	background-color:#333333;
+	text-align:center;
+	padding-top:20px;
+}
+
+#logo {
+	height:80px;
+	background-image:url(../logo/logo.gif);
+	background-repeat:no-repeat;
+	background-size:auto;
+	background-position:center;
+	padding-bottom:20px;
+	vertical-align:central;
+	width:100%;
+}
+
+#download {
+	text-align:center;
+	padding-right:20px;
+	padding-left:20px;
+	padding-bottom:20px;
+	padding-top:20px;
+	color:#FFF;
+	border: thin solid #FFFFFF;
+	border-spacing:20px;
+	font-size:14px;	
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+
+}
+
+.footer-button a {
+	color:#999999;
+	text-decoration:none;
+}
+
+.button1 {
+	text-align:right;
+	padding-right:20px;
+	padding-left:20px;
+	color:#FFF;
+	border-right: thin solid #FFFFFF;
+}
+
+.button2 {
+	text-align:right;
+	padding-right:40px;
+	padding-left:20px;
+	color:#FFF;
+}
+
+.title {
+	color:#FFFFFF;
+	font-size:36px;
+	padding-top:17px;
+	padding-bottom:23px;
+}
+
+.button3 {
+	text-align:right;
+	padding-right:20px;
+	padding-left:20px;
+	padding-bottom:20px;
+	padding-top:20px;
+	color:#FFF;
+	border: thin solid #FFFFFF;
+	border-spacing:20px;
+	font-size:14px;	
+}
+
+.bodytitle {
+	padding-top:80px;
+	font-family:"Times New Roman", Times, serif;
+	font-size:24px;
+	color:#000000;
+}
+
+.bodytext {
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:40px;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	line-height:2em;
+}
+
+.footer-button {
+	color:#999999;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:20px;
+}
+
+.copyright {
+	font-size:12px;
+	color:#666666;
+	padding-top:20px;
+}
+
+.name {
+	color:#999999;
+	padding-right:35px;
+	padding-left:60px;
+}
