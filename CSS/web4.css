@@ -56,7 +56,7 @@ a {
 }
 
 #body1 {
-	height:360px;
+	height:600px;
 	background:#FFFFFF;
 	text-align:center;
 	margin-left:auto;
@@ -110,6 +110,11 @@ a {
 .footer-button a {
 	color:#999999;
 	text-decoration:none;
+}
+
+.bodytext a {
+	color:#000000;
+	text-decoration:underline;
 }
 
 .button1 {
