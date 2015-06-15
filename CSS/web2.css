@@ -76,12 +76,12 @@ div p {
 
 #logo {
 	height:80px;
-	width:100%;
-	background-image:url(../logo/CNAME.gif);
+	background-image:url(../logo/logo.gif);
 	background-repeat:no-repeat;
 	background-size:auto;
 	background-position:center;
 	padding-bottom:20px;
+	vertical-align:central;
 }
 
 .button1 {
@@ -149,6 +149,6 @@ div p {
 
 .name {
 	color:#999999;
-	padding-right:50px;
+	padding-right:35px;
 	padding-left:60px;
 }
