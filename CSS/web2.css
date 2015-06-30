@@ -51,6 +51,15 @@ a {
 	height:100vh;
 }
 
+#container4 {
+	background:url(../images/macbook.jpeg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	margin:0;
+	height:100vh;
+}
+
 #header1 {
 	margin-left:auto;
 	margin-right:auto;
@@ -133,13 +142,14 @@ a {
 	margin-top:40px;
 }
 
-.footer-button a {
-	color:#999999;
-}
-
 .bodytext a {
 	color:#000000;
 	text-decoration:underline;
+}
+
+.footer-button a {
+	color:#999999;
+	text-decoration:none;
 }
 
 .button1 {
