@@ -25,7 +25,7 @@ a {
 }
 
 #container {
-	background:url(../images/background-bw.jpg);
+	background:url(../Images/apple-iphone-desk-office.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	width:100%;
@@ -34,7 +34,7 @@ a {
 }
 
 #container2 {
-	background:url(../images/Resized/MyFile%201.png);
+	background:url(../Images/mac_ipad.jpeg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	width:100%;
@@ -42,8 +42,8 @@ a {
 	height:100vh;
 }
 
-#container3 {
-	background:url(../images/apple-laptop-macbook-pro-notebook-bw.jpg);
+#container3 { 
+	background:url(../Images/mac_paper2.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	width:100%;
@@ -51,14 +51,14 @@ a {
 	height:100vh;
 }
 
-#container4 {
-	background:url(../images/macbook.jpeg);
+<!--#container4 {
+	background:
 	background-repeat:no-repeat;
 	background-size:cover;
 	width:100%;
 	margin:0;
 	height:100vh;
-}
+} -->
 
 #header1 {
 	margin-left:auto;
@@ -70,6 +70,14 @@ a {
 
 #title {
 	padding-top:182px;
+	color:#FFFFFF;
+	text-align:center;
+	font-size:24px;
+	font-weight:bolder;
+}
+
+#title1 {
+	padding-top:204px;
 	color:#FFFFFF;
 	text-align:center;
 	font-size:24px;
@@ -118,7 +126,6 @@ a {
 #logo {
 	height:80px;
 	width:100%;
-	background-image:url(../logo/logo.gif);
 	background-repeat:no-repeat;
 	background-size:auto;
 	background-position:center;
@@ -218,6 +225,4 @@ a {
 
 .name {
 	color:#999999;
-	padding-right:35px;
-	padding-left:60px;
 }
