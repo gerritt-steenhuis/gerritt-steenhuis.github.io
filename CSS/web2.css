@@ -24,6 +24,11 @@ a {
 	text-decoration:none;
 }
 
+li {
+	display: list-item;
+	list-style-position:inside;
+}
+
 #container {
 	background:url(../Images/apple-iphone-desk-office.jpg);
 	background-repeat:no-repeat;
@@ -51,14 +56,14 @@ a {
 	height:100vh;
 }
 
-<!--#container4 {
-	background:
+#container4 {
+	background:url(../Images/technology-music-sound-things.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	width:100%;
 	margin:0;
 	height:100vh;
-} -->
+} 
 
 #header1 {
 	margin-left:auto;
@@ -100,7 +105,7 @@ a {
 }
 
 #body2 {
-	height:600px;
+	height:680px;
 	background:#FFFFFF;
 	text-align:center;
 	margin-left:auto;
