@@ -112,6 +112,14 @@ li {
 	margin-right:auto;
 }
 
+#body3 {
+	height:680px;
+	background:#FFFFFF;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 #hor-rule {
 	width:60%;
 	border-top:thin solid #000000;
@@ -152,6 +160,14 @@ li {
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:40px;
+}
+
+#row {
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:30px;
+	padding-right:30px;
+	padding-left:30px;
 }
 
 .bodytext a {
@@ -200,7 +216,7 @@ li {
 }
 
 .bodytitle {
-	padding-top:80px;
+	padding-top:70px;
 	font-family:"Times New Roman", Times, serif;
 	font-size:24px;
 	color:#000000;
@@ -213,6 +229,14 @@ li {
 	margin-left:auto;
 	margin-right:auto;
 	line-height:2em;
+}
+
+bodytext2 {
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:100px;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .footer-button {
@@ -231,3 +255,13 @@ li {
 .name {
 	color:#999999;
 }
+
+.pictures1 {
+	padding-left:30px; 
+	padding-right:30px;
+}
+
+.ImageBorder {
+	border:1px solid black;
+}
+
