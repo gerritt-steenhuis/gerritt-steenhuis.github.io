@@ -29,6 +29,12 @@ li {
 	list-style-position:inside;
 }
 
+img {
+	max-width:100%;
+	height:auto;
+	margin: 0 0 10px 0;
+}
+
 #container {
 	background:url(../Images/apple-iphone-desk-office.jpg);
 	background-repeat:no-repeat;
@@ -70,22 +76,22 @@ li {
 	margin-right:auto;
 	text-align:right;
 	margin-top:0px;
-	padding-top:30px;
+	padding-top:1.9%;
 }	
 
 #title {
-	padding-top:182px;
+	padding-top:13.5%;
 	color:#FFFFFF;
 	text-align:center;
-	font-size:24px;
+	font-size:10%;
 	font-weight:bolder;
 }
 
 #title1 {
-	padding-top:204px;
+	padding-top:12.4%;
 	color:#FFFFFF;
 	text-align:center;
-	font-size:24px;
+	font-size:10%;
 	font-weight:bolder;
 }
 
@@ -93,11 +99,11 @@ li {
 	color:#FFFFFF;
 	text-align:center;
 	vertical-align:central;
-	padding-top:30px;
+	padding-top:1.6%;
 }
 
 #body1 {
-	height:360px;
+	height:100%;
 	background:#FFFFFF;
 	text-align:center;
 	margin-left:auto;
@@ -125,7 +131,7 @@ li {
 	border-top:thin solid #000000;
 	margin-left:auto;
 	margin-right:auto;
-	height:90px;
+	padding-bottom:6%;
 }
 
 #footer {
@@ -183,40 +189,40 @@ li {
 .button1 {
 	
 	text-align:right;
-	padding-right:20px;
-	padding-left:20px;
+	padding-right:1.25%;
+	padding-left:1.25%;
 	color:#FFF;
 	border-right: thin solid #FFFFFF;
 }
 
 .button2 {
 	text-align:right;
-	padding-right:40px;
-	padding-left:20px;
+	padding-right:2.5%;
+	padding-left:1.25%;
 	color:#FFF;
 }
 
 .title {
 	color:#FFFFFF;
 	font-size:36px;
-	padding-top:17px;
-	padding-bottom:23px;
+	padding-top:.8%;
+	padding-bottom:1.6%;
 }
 
 .button3 {
 	text-align:right;
-	padding-right:20px;
-	padding-left:20px;
-	padding-bottom:20px;
-	padding-top:20px;
+	padding-right:1.25%;
+	padding-left:1.25%;
+	padding-bottom:1.25%;
+	padding-top:1.25%;
 	color:#FFF;
 	border: thin solid #FFFFFF;
-	border-spacing:20px;
+	border-spacing:1.25%;
 	font-size:14px;	
 }
 
 .bodytitle {
-	padding-top:70px;
+	padding-top:4%;
 	font-family:"Times New Roman", Times, serif;
 	font-size:24px;
 	color:#000000;
@@ -224,11 +230,12 @@ li {
 
 .bodytext {
 	font-family:Arial, Helvetica, sans-serif;
-	padding-top:40px;
+	padding-top:3%;
 	width:60%;
 	margin-left:auto;
 	margin-right:auto;
 	line-height:2em;
+	padding-bottom:6%;
 }
 
 bodytext2 {
