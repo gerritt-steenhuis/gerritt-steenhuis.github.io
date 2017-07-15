@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url("../img/2.jpg") no-repeat 50% 50%;
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+
+.intro .inner {
+	display: table-cell;
+	padding-top: 4%;
+	width: 100%;
+	max-width: none;
+}
+
+.content {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 30%;
+}
+
+.content h1 {
+	font-family: "Yantramanav", sans-serif;
+	font-size: 325%;
+	font-weight: 125;
+	color: #DDCCBD;
+	line-height: 30%;
+	padding-bottom: 1%;
+}
+
+.divider {
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.btn {
+	font-family: "Montserrat", sans-serif;
+	font-size: 125%;
+	font-weight: 400;
+	color: #627D92;
+	text-transform: "uppercase";
+	text-decoration: none;
+	border: solid #627D92;
+	padding: 10px 20px;
+	border-radius: 9px;
+	transition: all 0.5s;
+}
+.btn:hover {
+	color: #305A7A;
+	border: solid #305A7A 3px;
+}
+
+/*--- Media Queries --*/
+@media screen and (max-width: 900px) {
+	.content {
+		padding-top: 3%;
+	}
+	.content h1 {
+		font-size: 300%;
+	}
+	.btn {
+		font-size: 110%;
+		padding:9px 17px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.content {
+		padding-top: 6%;
+	}
+	.content h1 {
+		font-size: 290%;
+	}
+	.btn {
+		font-size: 110%;
+		padding:9px 17px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.content {
+		padding-top: 17%;
+	}
+	.content h1 {
+		font-size: 260%;
+	}
+	.btn {
+		font-size: 100%;
+		padding:8px 15px;
+	}
+}
