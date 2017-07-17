@@ -1,8 +1,13 @@
 body {
 	margin-top: 70px;
 	font-size: 16px;
+	background-image: url("../img/ps_neutral.png");
 }
 
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
 h1, h2, h3, h4, h5, h6{
 	font-family: Poppins;
 }
@@ -11,9 +16,13 @@ p {
 	font-family: Roboto;
 }
 
+.navbar-border {
+	border-bottom-width: 1px;
+	border-bottom-color: #90989B;
+}
+
 .navbar-default {
-	background:#fff;
-	border:0;
+	background:#E8EAEA;
 	font-family:Poppins;
 }
 
@@ -21,7 +30,15 @@ p {
 	font-size:24px;
 	color:#000 !important;
 }
+#welcome img{
+	width: 50%;
+	vertical-align: center;
+}
 
+#welcome .welcome-right{
+	/*margin:20px;*/
+	/*padding:30px;*/
+}
 #showcase h1 {
 	font-size: 50px;
 	margin-bottom: 20px;
