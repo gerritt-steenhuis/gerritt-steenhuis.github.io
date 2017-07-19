@@ -25,7 +25,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#showcase">Home</a></li>
+            <li class="active"><a href="#showcase">Home</a></li>
             <li><a href="#info1">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -44,7 +44,7 @@
 				<div class="col-sm-8">
 					<div class="welcome-right">
 						<h2>About Me</h2>
-						<p>Hi, I'm Gerritt! I am a Mechanical Engineering student at the University of Waterloo, currently in my 3rd year of studies. I have a passion for designing, both through Web Design and AutoCAD, and for writing the slickest code that a Mechanical Engineer can pull off. I love programming in Python, and am proficient in all front-end technologies including: HTML, CSS, and JavaScript, with particular knowledge in developing React and Django Apps. I have a knack for all things mechanical, and enjoy working on my car, as well as creating neat automated projects (checkout my night vision, motion detected camera project). I have a broad skill base with experience in all fields ranging from designing playgrounds using AutoCAD 3d, to being a project manager on a team implementing a $5.5 million dollar change at Toyota Motor Manufacturing Canada, to creating React Applications that displayed manufacturing plants efficiency and downtime metrics while at Shoplogix. Keep reading to find out more about my past projects and experiences and don't hesitate to contact me.</p>
+						<p><span class="introsentence"><b>Hi, I'm Gerritt!</b></span> I am a student at the University of Waterloo in my 3rd year of Mechanical Engineering. I have extensive experience in design (both drafting and web development), and I have a passion for writing the slickest code a Mechanical Engineer can pull off. I love programming in <span class="introsentence">Python,</span> and am proficient in <span class="introsentence">HTML5, CSS3, JavaScript, and React</span>. I have a knack for all things mechanical, and enjoy fixing my car or tinkering with homemade projects. I have a broad skill base with experience ranging from designing playgrounds using <span class="introsentence">AutoCAD 3D,</span> to managing a team implementing a <span class="introsentence">$5.5 million dollar</span> change at Toyota, to creating <span class="introsentence">React Apps</span> that display manufacturing plants' efficiency metrics in realtime. Keep reading to find out more about my projects and experiences, and don't hesitate to <a class="contactme">contact me.</a></p>
 					</div>
 				</div>
 			</div> 		
@@ -273,6 +273,12 @@
 				}
 			}
 			});
+	</script>
+	<script>
+	$(".nav a").on("click", function(){
+    $(".nav").find(".active").removeClass("active");
+    $(this).parent().addClass("active");
+	});
 	</script>
 
 </body>

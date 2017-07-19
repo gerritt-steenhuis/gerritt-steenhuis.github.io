@@ -16,17 +16,43 @@ p {
 	font-family: Roboto;
 }
 
+/*.nav>li>a:after {
+	content:'';
+	border-bottom: 1px solid #90989B;
+	position: absolute;
+	bottom: 0; left: 15px; right:15px;
+}
+
+.nav>li>a:before {
+	content:'';
+	border-top: 1px solid #90989B;
+	position: absolute;
+	top: 0; left:15px; right:15px;
+}*/
+
+.navbar-header .navbar-toggle {
+	border-color: #90989B;
+}
+
+.navbar-header .navbar-toggle:hover {
+	background-color: #444647;
+}
+
+.navbar-header .navbar-toggle .icon-bar {
+	background-color: #90989B;
+}
+
+.navbar-header .navbar-toggle:hover .icon-bar {
+	background-color: #EFF1F2;
+}
+
+.active a{
+	background-color: rgba(132,192,198,0.6) !important;
+}
+
 .navbar-border {
 	border-bottom-width: 1px;
 	border-bottom-color: #90989B;
-}
-
-.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
-	color:#000000;
-}
-
-ul.nav a:hover, ul.nav a:focus, ul.nav a:active {
-	background:#000000;
 }
 
 .navbar-default {
@@ -36,19 +62,30 @@ ul.nav a:hover, ul.nav a:focus, ul.nav a:active {
 
 .navbar-brand {
 	font-size:24px;
-	color:#000 !important;
+	color:#000000 !important;
 }
+
 #welcome img{
 	width: 230px;
 	height: 230px;
 	vertical-align: center;
-	margin-top: 20px;
+	margin-top: 8px;
+	border:2px solid #84C0C6;
 }
 
 #welcome .welcome-right{
 	margin: 0 30px 10px 30px;
 	/*padding:30px;*/
 }
+
+.introsentence {
+	color:#399CBA;
+}
+
+.contactme {
+	color:#D00000;
+}
+
 #showcase h1 {
 	font-size: 50px;
 	margin-bottom: 20px;
