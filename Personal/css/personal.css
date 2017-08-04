@@ -137,6 +137,17 @@ p {
 	margin: 20px 0 60px 0;
 }
 
+#experience .info-left-one {
+
+}
+
+#experience .info-right-one {
+	height:auto;
+	width:auto;
+	max-height:10px;
+	max-width: 10px;
+}
+
 #contact{
 	background:url(../img/4.jpg);
 	background-size: cover;
