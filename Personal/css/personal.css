@@ -16,6 +16,14 @@ p {
 	font-family: Roboto;
 }
 
+hr {
+    border: none;
+    height: 3px;
+    /* Set the hr color */
+    color: #e8e8e8; /* old IE */
+    background-color: #e8e8e8; /* Modern Browsers */
+}
+
 .navbar-header .navbar-toggle {
 	border-color: #90989B;
 }
@@ -138,14 +146,59 @@ p {
 }
 
 #experience .info-left-one {
-
+	margin-top: 20px;
 }
 
 #experience .info-right-one {
+
+}
+
+#experience .info-left-two {
+	margin-top: 20px;
+}
+
+#experience .info-right-two {
+
+}
+
+#experience .info-left-three {
+	margin-top: 20px;
+}
+
+#experience .info-right-three {
+
+}
+
+#experience .info-left-four {
+	margin-top: 20px;
+}
+
+#experience .info-right-four {
+
+}
+
+.info-left-one img {
 	height:auto;
-	width:auto;
-	max-height:10px;
-	max-width: 10px;
+	width:200px;
+}
+
+.info-left-two img {
+	height:auto;
+	width:200px;
+}
+
+.info-left-three img {
+	height:auto;
+	width:200px;
+}
+
+.info-left-four img {
+	height:auto;
+	width:400px;
+}
+
+.date {
+	float:right;
 }
 
 #contact{
