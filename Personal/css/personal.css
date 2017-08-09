@@ -19,7 +19,6 @@ p {
 hr {
     border: none;
     height: 3px;
-    /* Set the hr color */
     color: #e8e8e8; /* old IE */
     background-color: #e8e8e8; /* Modern Browsers */
 }
@@ -202,10 +201,10 @@ hr {
 }
 
 #contact{
-	background:url(../img/4.jpg);
+	background:url(../img/7.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center;
 	padding: 40px;
 	color: #fff;
 	border-top: #333 7px solid;
@@ -215,5 +214,3 @@ hr {
 footer{
 	padding: 30px;
 }
-
-

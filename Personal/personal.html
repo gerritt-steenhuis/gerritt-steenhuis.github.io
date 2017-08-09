@@ -131,7 +131,7 @@
 			<div class="row">
 				<div class="col-sm-2">
 					<div class="info-left-one">
-						<img class="center-block img-responsive" src="../Images/Shoplogix Emblem.png">
+						<img class="center-block img-responsive" src="./img/Shoplogix Emblem.png">
 					</div>
 				</div>			
 				<div class="col-sm-10">
@@ -146,7 +146,7 @@
 			<div class="row">
 				<div class="col-sm-2">
 					<div class="info-left-two">
-						<img class="center-block img-responsive" src="../Images/tmmc.png">
+						<img class="center-block img-responsive" src="./img/tmmc.png">
 					</div>
 				</div>
 				<div class="col-sm-10">
@@ -161,7 +161,7 @@
 			<div class="row">
 				<div class="col-sm-2">
 					<div class="info-left-three">
-						<img class="center-block img-responsive" src="../Images/Shoplogix Emblem.png">
+						<img class="center-block img-responsive" src="./img/Shoplogix Emblem.png">
 					</div>
 				</div>			
 				<div class="col-sm-10">
@@ -176,7 +176,7 @@
 			<div class="row">
 				<div class="col-sm-2">
 					<div class="info-left-four">
-						<img class="center-block img-responsive" src="../Images/ksl.png">
+						<img class="center-block img-responsive" src="./img/ksl.png">
 					</div>
 				</div>			
 				<div class="col-sm-10">
@@ -191,7 +191,7 @@
 			<div class="row">
 				<div class="col-sm-2">
 					<div class="info-left-two">
-						<img class="center-block img-responsive" src="../Images/tmmc.png">
+						<img class="center-block img-responsive" src="./img/tmmc.png">
 					</div>
 				</div>
 				<div class="col-sm-10">
@@ -263,7 +263,9 @@
     </section>
 
     <footer>
+    	<div class="container">
 		<p class="text-center">Gerritt Steenhuis Copyright &copy; 2017</p>
+		</div>
     </footer>
 
 	
@@ -284,7 +286,6 @@
 		sr.reveal('#testimonial div', {duration:2000, origin:'bottom'});
 		sr.reveal('.info-left', {duration:2000, origin:'left', distance:'300px', viewFactor:0.3});
 		sr.reveal('.info-right', {duration:2000, origin:'right', distance:'300px', viewFactpr:0.3});
-
 	</script>
 
 	<script>
@@ -448,7 +449,7 @@
 		let hobbiesChart = new Chart(hob, {
 			type:'radar',
 			data:{
-				labels:['Coding', 'Biking', 'Working on my Car', 'Bouldering', 'Hiking', 'Web Design', 'Frisbee'],
+				labels:['Coding', 'Biking', 'Working on my Car', 'Bouldering', 'Hiking', 'Web Design', 'Ultimate Frisbee'],
 				datasets:[{
 					label:"Weekdays",
 					data:[100, 60, 30, 60, 25, 85, 80],
@@ -511,13 +512,11 @@
 			});
 	</script>
 
-
 	<script>
 	$(".nav a").on("click", function(){
     $(".nav").find(".active").removeClass("active");
     $(this).parent().addClass("active");
 	});
 	</script>
-
 </body>
 </html>
