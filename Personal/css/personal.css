@@ -137,11 +137,6 @@ hr {
 	margin: 20px 0 60px 0;
 }
 
-#experience .row {
-/*	margin-top: 20px;
-	margin-bottom:20px*/
-}
-
 #experience .info-left-one {
 	margin-top: 20px;
 }
@@ -176,17 +171,17 @@ hr {
 
 .info-left-one img {
 	height:auto;
-	width:200px;
+	width:150px;
 }
 
 .info-left-two img {
 	height:auto;
-	width:200px;
+	width:300px;
 }
 
 .info-left-three img {
 	height:auto;
-	width:200px;
+	width:150px;
 }
 
 .info-left-four img {
@@ -198,6 +193,17 @@ hr {
 
 .date {
 	float:right;
+}
+
+.icons {
+	text-align: center;
+}
+
+.icons img {
+	width:35px;
+	height:auto;
+	display:inline-block;
+	margin:0 7px 25px 7px;
 }
 
 #contact{
