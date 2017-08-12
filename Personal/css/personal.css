@@ -75,12 +75,37 @@ hr {
 	color:#399CBA;
 }
 
+.welcome-right a{
+	text-decoration: none;
+}
+
 .contactme {
 	color:#D00000;
+	text-decoration: none;
+}
+
+.contactme:hover {
+	font-weight:bold;
+	color:#D00000;
+	text-decoration: none;
+}
+
+.contactme:visited {
+	color:#D00000;
+	text-decoration: none;
+}
+
+.contactme:active {
+	color:#D00000;
+	text-decoration: none;
 }
 
 .education {
 	color:#D00000;
+}
+
+.contactmebtn {
+	color:#D00000;	
 }
 
 #showcase {
@@ -171,7 +196,7 @@ hr {
 
 .info-left-one img {
 	height:auto;
-	width:150px;
+	width:175px;
 }
 
 .info-left-two img {
@@ -181,13 +206,13 @@ hr {
 
 .info-left-three img {
 	height:auto;
-	width:150px;
+	width:175px;
 }
 
 .info-left-four img {
 	height:auto;
 	width:400px;
-	margin-top:40px;
+	margin-top:60px;
 	margin-bottom:40px;
 }
 
@@ -207,7 +232,7 @@ hr {
 }
 
 #particles-js {
-	background:firebrick;
+	background:#D00000;
 	height:400px;
 	border-top: #333 7px solid;
 	border-bottom: #333 7px solid;
