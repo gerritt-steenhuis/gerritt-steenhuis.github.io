@@ -359,6 +359,14 @@ footer{
 	}
 }
 @media screen and (max-width: 670px) {
+	#experience h2 {
+		font-size:22px;
+	}
+
+	#experience h4 {
+		font-size:16px;
+	}
+
 	.carousel {
 		height:400px;
 		width:auto;
@@ -396,6 +404,18 @@ footer{
 }
 
 @media screen and (max-width: 575px) {
+	p {
+		font-size:14px;
+	}
+
+	#experience li {
+		font-size:14px;
+	}
+
+	#experience .toyotaOne {
+		font-size:20px;
+	}
+
 	.carousel {
 		height:300px;
 		width:auto;
@@ -437,6 +457,16 @@ footer{
 	.carousel-inner > .item > img {
 		height:300px;
 		width:100%;
+	}
+}
+
+@media screen and (max-width: 475px) {
+	#experience h2 {
+		font-size:20px;
+	}
+
+	#experience h4 {
+		font-size:14px;
 	}
 }
 
