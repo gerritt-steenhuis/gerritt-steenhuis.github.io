@@ -36,7 +36,7 @@ img {
 }	
 		
 #container {
-	background:url(../Images/apple-iphone-desk-office.jpg);
+	background:url(./Images/apple-iphone-desk-office.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
 	width:100%;
@@ -46,7 +46,7 @@ img {
 }
 
 #container2 {
-	background:url(../Images/mac_ipad.jpeg);
+	background:url(./Images/mac_ipad.jpeg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	width:100%;
@@ -56,7 +56,7 @@ img {
 }
 
 #container3 { 
-	background:url(../Images/mac_paper2.jpg);
+	background:url(./Images/mac_paper2.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	width:100%;
@@ -66,7 +66,7 @@ img {
 }
 
 #container4 {
-	background:url(../Images/technology-music-sound-things.jpg);
+	background:url(./Images/technology-music-sound-things.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	width:100%;
