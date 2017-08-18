@@ -6,7 +6,7 @@
 	<title>Gerritt Steenhuis</title>
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500%7CFaustina" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/personal.css">
+	<link rel="stylesheet" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
@@ -299,14 +299,14 @@
     <section id="hobbies">
     	<div class="container">
     		<div class="row">
-    			<div class="col-sm-6">
+    			<div class="col-md-4">
     				<div class="hobby-left">
 						<h2>Hobbies and Interests</h2>
 						<p>During the Weekdays you can almost always catch me coding in my spare time. I'm usually coding in python, and love creating cool automated project using my Raspberry Pi. I am really interested in computer vision and machine learning, and am currently working on making a night-vision motion detected security camera system that emails to my Dropbox. If I'm not coding in python you can catch me learning about the newest and coolest things in web development, with my current interests being in css grid, particle.js, and React.js. Beyond coding I enjoy the outdoors, and will almost be out biking, hiking, or playing ultimate frisbee. I'm big into boldering and dream to climb at Yosemite or Squamish whenever I can. I'm into tinkering and will always be out fiddling with my current project, whether that be an oil change to my car, or playing around with my Raspberry Pi. 
 						</p>
     				</div>
     			</div>
-    			<div class="col-sm-6">
+    			<div class="col-md-8">
     				<div class="hobby-right">
 						<canvas id="hobbieschart"></canvas>
     				</div>
@@ -360,7 +360,7 @@
 	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 	
 	<script>
-		particlesJS.load('particles-js','particles.json', function(){console.log('loaded');});
+		particlesJS.load('particles-js','./js/particles.json', function(){console.log('loaded');});
 	</script>
 	<script>
 		window.sr = ScrollReveal();
