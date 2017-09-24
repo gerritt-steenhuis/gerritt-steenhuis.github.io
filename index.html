@@ -7,11 +7,24 @@
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CFaustina" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+	<script
+  	src="https://code.jquery.com/jquery-3.2.1.js"
+  	integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  	crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 </head>
+<script>
+	$(document).ready(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+</script>
 <body>
+	<div class="se-pre-con"></div>
 	<nav class="navbar navbar-default navbar-fixed-top navbar-border">
       <div class="container">
         <div class="navbar-header">
@@ -145,8 +158,8 @@
 							<h4>Senior Systems Engineer<span class="date">May 2017 - Aug 2017</span></h4>
 							<p><ul>
 								<li>Created a customer adoption and efficiency Scorecard report using JavaScript, React.js, chart.js, css, and HTML5</li>
-								<li>Developed a backend data parser to fetch customer core data, and deliver it in a useable form for reporting metrics, using Python, and SQL</li>
-								<li>Managed the deployment, validation, and training of the Shoplogix software within Masco Canada, while assisting in the deployments of Magna Mirrors division in Europe</li>
+								<li>Developed a backend data parser to fetch customer core data for reporting metrics, using Python, and SQL</li>
+								<li>Managed the deployment, validation, and training of the Shoplogix software within various customers both nationally and internationally</li>
 							</ul></p>
 					</div>
 				</div>
@@ -164,8 +177,8 @@
 						<h4 class="toyotaTwo">Manufacturing Engineer<span class="date">Sept 2016 - Dec 2016</span></h4>
 						<p><ul>
 							<li> Led the implementation phase of a cross dock elimination project through the management and organization of various internal support teams, and contracted companies</li>
-							<li> Redesigned a 13,500 square meter section of the assembly shop using AutoCAD to eliminate cross dock sorting and receive sub-route freight directly resulting in yearly plant savings of $1.1 M </li>
-							<li>Optimized the upper and lower instrument panel delivery process through time studies and lot size modifications resulting in savings of $240,000 per year and a wait muda reduction of 44%</li>
+							<li> Redesigned a 13,500 square meter section of the assembly shop using AutoCAD to eliminate cross dock sorting and receive sub-route freight directly resulting in yearly plant savings of $5.78 M </li>
+							<li>Optimized the upper and lower instrument panel delivery process through time studies and lot size modifications resulting in savings of $240,000 per year and a wait time reduction of 44%</li>
 						</ul></p>
 					</div>
 				</div>
@@ -184,9 +197,7 @@
 							<p><ul>
 								<li> Expanded the Shoplogix global sales channel through various business tasks, such as: market research, product demonstrations, networking, cold calling, and program management</li>
 								<li> Provided engineering consultation with a focus in kaizen reporting and lean manufacturing practices</li>
-								<li> Managed the deployment, support, and upkeep of several high end customer accounts</li>
 								<li>Designed and managed the renovation of a new office space</li>
-								<li>Uploaded and utilized customer data through PLC programming</li>
 								<li> Performed debugging and configuration tasks for customer uploaded text and XML data files</li>
 							</ul></p>
 					</div>
@@ -302,7 +313,7 @@
     			<div class="col-md-4">
     				<div class="hobby-left">
 						<h2>Hobbies and Interests</h2>
-						<p>During the Weekdays you can almost always catch me coding in my spare time. I'm usually coding in python, and love creating cool automated project using my Raspberry Pi. I am really interested in computer vision and machine learning, and am currently working on making a night-vision motion detected security camera system that emails to my Dropbox. If I'm not coding in python you can catch me learning about the newest and coolest things in web development, with my current interests being in css grid, particle.js, and React.js. Beyond coding I enjoy the outdoors, and will almost be out biking, hiking, or playing ultimate frisbee. I'm big into boldering and dream to climb at Yosemite or Squamish whenever I can. I'm into tinkering and will always be out fiddling with my current project, whether that be an oil change to my car, or playing around with my Raspberry Pi. 
+						<p>During the Weekdays you can almost always catch me coding in my spare time. I'm usually coding in python, and love creating cool automated projects using my Raspberry Pi. I am really interested in computer vision and machine learning, and am currently working on making a night-vision motion detected security camera system that sends emails to my Dropbox. If I'm not coding in python you can catch me learning about the newest and coolest things in web development, with my current interests being in css grid, particle.js, and React.js. Beyond coding I enjoy the outdoors, and will almost be out biking, hiking, or playing ultimate frisbee. I'm big into boldering and dream to climb at Yosemite or Squamish. I'm into tinkering and will always be out fiddling with my current project, whether that be an oil change to my car, or playing around with my Raspberry Pi. 
 						</p>
     				</div>
     			</div>
@@ -350,18 +361,14 @@
 		<p class="text-center">Gerritt Steenhuis Copyright &copy; 2017</p>
 		</div>
     </footer>
-
+	<script src="./js/scrollreveal.js" type="text/javascript" ></script>
 	
-	<script
-  	src="https://code.jquery.com/jquery-3.2.1.js"
-  	integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  	crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 	<script>
 		particlesJS.load('particles-js','./js/particles.json');
 	</script>
-	<script src="./js/scrollreveal.js" type="text/javascript" ></script>
+
 	<script src="./js/smoothscroll.js" type="text/javascript"></script>
 	<script src="./js/gradeschart.js" type="text/javascript"></script>
 	<script src="./js/programchart.js" type="text/javascript"></script>
