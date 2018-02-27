@@ -8,15 +8,16 @@ let gr = document.getElementById('grades').getContext('2d');
 		let gradesChart = new Chart(gr, {
 			type:'bar',
 			data:{
-				labels:['1A', '1B', '2A', '2B', '3A'],
+				labels:['1A', '1B', '2A', '2B', '3A', '3B'],
 				datasets:[{
 					label:'Term Average',
-					data:[80.27, 84.18, 85.17, 81.00, 87.80],
+					data:[80.27, 84.18, 85.17, 81.00, 87.80, 89.33],
 					backgroundColor:['rgba(255, 99, 132, 0.6)',
 					'rgba(54, 162, 235, 0.6)',
 					'rgba(255, 206, 86, 0.6)',
 					'rgba(75, 192, 192, 0.6)',
-					'rgba(153, 102, 255, 0.6)'],
+					'rgba(153, 102, 255, 0.6)',
+					'rgba(244, 155, 39, 0.6)'],
 					borderWidth:1,
 					borderColor:'#777',
 					hoverBorderWidth:3,
