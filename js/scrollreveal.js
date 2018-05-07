@@ -12,6 +12,7 @@
 		sr.reveal('.cert-left', {duration:2000, origin:'left', distance:'300px', viewFactor:0.3});
 		sr.reveal('.cert-right', {duration:2000, origin:'right', distance:'300px', viewFactor:0.3});
 		sr.reveal('.prof-header', {duration:2000, origin:'top', distance:'300px'});
+		sr.reveal('.info-petro-one', {duration:2000, origin:'left', distance:'300px', viewFactor:0.3});
 		sr.reveal('.info-left-one', {duration:2000, origin:'left', distance:'300px', viewFactor:0.3});
 		sr.reveal('.info-right-one', {duration:2000, origin:'right', distance:'300px', viewFactor:0.3});
 		sr.reveal('.info-left-two', {duration:2000, origin:'left', distance:'300px', viewFactor:0.3});
