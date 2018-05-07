@@ -8,10 +8,10 @@
 		let hobbiesChart = new Chart(hob, {
 			type:'radar',
 			data:{
-				labels:['Coding', 'Biking', 'Working on my Car', 'Bouldering', 'Hiking', 'Web Design', 'Ultimate Frisbee'],
+				labels:['Coding', 'Biking', 'Working on my Car', 'Climbing', 'Hiking', 'Web Design', 'Ultimate Frisbee'],
 				datasets:[{
 					label:"Weekdays",
-					data:[100, 60, 30, 60, 25, 85, 80],
+					data:[90, 60, 80, 60, 25, 85, 80],
 					backgroundColor:
 					'rgba(75, 192, 192, 0.2)',
 					borderWidth:1,
@@ -21,7 +21,7 @@
 			},
 			{
 				label:"Weekends",
-					data:[80, 85, 80, 20, 80, 55, 100],
+					data:[80, 85, 60, 95, 80, 55, 90],
 					backgroundColor:
 					'rgba(255, 99, 132, 0.2)',
 					borderWidth:1,
